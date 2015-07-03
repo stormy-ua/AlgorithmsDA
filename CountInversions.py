@@ -2,16 +2,16 @@ def countinv(x):
     if len(x) < 2:
         return [x, 0]
     if len(x) < 3:
-        return [x, 1] if x[0] > x[1] else [x, 0]
+        return [[x[1], x[0]], 1] if x[0] > x[1] else [x, 0]
     halfLength = len(x)//2
     # get the left part of the input array
     left = x[:halfLength]
     # get the right part of the input array
     right = x[halfLength:]
-    print("left: {0}, right: {1}".format(left, right))
+    #print("left: {0}, right: {1}".format(left, right))
     sortedLeft, invCountLeft = countinv(left)
     sortedRight, invCountRight = countinv(right)
-    print("left: {0}, right: {1}".format([sortedLeft, invCountLeft], [sortedRight, invCountRight]))
+    #print("left: {0}, right: {1}".format([sortedLeft, invCountLeft], [sortedRight, invCountRight]))
     invCountSplit = 0
     merged = []
     i = 0
@@ -30,9 +30,18 @@ def countinv(x):
             merged.append(sortedRight[j])
             j += 1
             invCountSplit += len(sortedLeft) - i
-    print("merged {0}".format(merged))
+    #print("merged {0}".format(merged))
     return [merged, invCountLeft + invCountRight + invCountSplit]
 
-print(countinv([1, 3, 5, 2, 4, 6]))
-#print(countinv([1, 2, 3, 4, 5, 6]))
+#print(countinv([1, 3, 5, 2, 4, 6]))
+#print(countinv([1, 2, 3, 4, 5, 6])[1])
 #print(countinv([1, 2, 4, 3, 5, 6]))
+
+
+with open("IntegerArray.txt") as f:
+    array = [int(l) for l in f.readlines()]
+
+#print(len(array))
+print(countinv(array)[1])
+
+
