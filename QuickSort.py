@@ -1,47 +1,42 @@
-import sys
-
-sys.setrecursionlimit(10100)
+# import sys
+# sys.setrecursionlimit(10100)
 
 comparisons = 0
 calls = 0
 x = []
 
-def swap(i, j):
-    global x
+def swap(x, i, j):
     tmp = x[i]
     x[i] = x[j]
     x[j] = tmp
 
-def choosePivot(l, r):
-    global x
-    #return r
-    first = x[l]
-    last = x[r]
-    middle = x[(r + l)//2]
-    if (first < middle < last) or (last < middle < first):
-        return (r + l)//2
-    elif (middle < first < last) or (last < first < middle) or (middle == first):
-        return l
-    elif (first < last < middle) or (middle < last < first):
-        return r
+def choosePivot(x, l, r):
+    return r
+    # first = x[l]
+    # last = x[r]
+    # middle = x[(r + l)//2]
+    # if (first < middle < last) or (last < middle < first):
+    #     return (r + l)//2
+    # elif (middle < first < last) or (last < first < middle) or (middle == first):
+    #     return l
+    # elif (first < last < middle) or (middle < last < first):
+    #     return r
 
-def partition(l, r, i):
-    global x
+def partition(x, l, r, i):
     pivot = x[i]
     # put the pivot at the beginning of the array
-    swap(l, i)
+    swap(x, l, i)
     i = l + 1
     for j in range(l + 1, r + 1):
         if x[j] < pivot:
-            swap(j, i)
+            swap(x, j, i)
             i += 1
-    swap(l, i - 1)
+    swap(x, l, i - 1)
     return i - 1
 
-def quicksort(l=0, r=None):
-    global x
-    global calls
-    calls += 1
+def quicksort(x, l=0, r=None):
+    # global calls
+    # calls += 1
     #print(calls)
     # if array has length equal to 1 then no sorting needed
     if len(x) <= 1:
@@ -59,12 +54,12 @@ def quicksort(l=0, r=None):
         return
 
     #print("sorting range: [{0}, {1}]".format(l, r))
-    i = choosePivot(l, r)
+    i = choosePivot(x, l, r)
     #print("chosen pivot: {0}".format(i))
     # partition and return the position of the pivot in the partitioned array
-    i = partition(l, r, i)
-    quicksort(l, i - 1)
-    quicksort(i + 1, r)
+    i = partition(x, l, r, i)
+    quicksort(x, l, i - 1)
+    quicksort(x, i + 1, r)
     return
 
 
@@ -75,7 +70,7 @@ with open("QuickSort.txt") as f:
 
 #x = [3, 2, 5, 6, 1, 4, 9, 7, 0, 8, 10]
 x = array
-quicksort()
+quicksort(x)
 #print(x)
 print(comparisons)
 
