@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16cbf2d3-0282-40d8-83a5-b3a0d853e692" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KosarajuSccSearch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MedianMaintenance.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AlgorithmsDA.iws" />
@@ -36,11 +37,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KosarajuSccSearch.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KosarajuSccSearch.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KosarajuSccSearch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14285715">
+            <state vertical-scroll-proportion="0.0">
               <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DijkstraShortestPath.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DijkstraShortestPath.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2sum.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2sum.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MedianMaintenance.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/MedianMaintenance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.22972973">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -68,6 +99,9 @@
         <option value="$PROJECT_DIR$/QuickSort.py" />
         <option value="$PROJECT_DIR$/RandomContraction.py" />
         <option value="$PROJECT_DIR$/KosarajuSccSearch.py" />
+        <option value="$PROJECT_DIR$/DijkstraShortestPath.py" />
+        <option value="$PROJECT_DIR$/2sum.py" />
+        <option value="$PROJECT_DIR$/MedianMaintenance.py" />
       </list>
     </option>
   </component>
@@ -75,10 +109,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="2060" />
-    <option name="height" value="1128" />
+    <option name="x" value="-7" />
+    <option name="width" value="1932" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -87,7 +120,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -123,13 +156,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
     <property name="settings.editor.splitter.proportion" value="0.2807657" />
     <property name="FullScreen" value="false" />
   </component>
@@ -138,58 +171,7 @@
       <recent name="C:\SD\Private\AlgorithmsDA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.KosarajuSccSearch">
-    <configuration default="false" name="MergeSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsDA" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MergeSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="CountInversions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsDA" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/CountInversions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuickSort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="AlgorithmsDA" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QuickSort.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.MedianMaintenance">
     <configuration default="false" name="RandomContraction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,6 +202,57 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="AlgorithmsDA" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/KosarajuSccSearch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DijkstraShortestPath" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsDA" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DijkstraShortestPath.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="2sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsDA" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2sum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="MedianMaintenance" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="AlgorithmsDA" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MedianMaintenance.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -347,19 +380,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.MergeSort" />
-      <item index="1" class="java.lang.String" itemvalue="Python.CountInversions" />
-      <item index="2" class="java.lang.String" itemvalue="Python.QuickSort" />
-      <item index="3" class="java.lang.String" itemvalue="Python.RandomContraction" />
-      <item index="4" class="java.lang.String" itemvalue="Python.KosarajuSccSearch" />
+      <item index="0" class="java.lang.String" itemvalue="Python.RandomContraction" />
+      <item index="1" class="java.lang.String" itemvalue="Python.KosarajuSccSearch" />
+      <item index="2" class="java.lang.String" itemvalue="Python.DijkstraShortestPath" />
+      <item index="3" class="java.lang.String" itemvalue="Python.2sum" />
+      <item index="4" class="java.lang.String" itemvalue="Python.MedianMaintenance" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.KosarajuSccSearch" />
-        <item index="1" class="java.lang.String" itemvalue="Python.RandomContraction" />
-        <item index="2" class="java.lang.String" itemvalue="Python.QuickSort" />
-        <item index="3" class="java.lang.String" itemvalue="Python.CountInversions" />
-        <item index="4" class="java.lang.String" itemvalue="Python.MergeSort" />
+        <item index="0" class="java.lang.String" itemvalue="Python.MedianMaintenance" />
+        <item index="1" class="java.lang.String" itemvalue="Python.2sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.DijkstraShortestPath" />
+        <item index="3" class="java.lang.String" itemvalue="Python.KosarajuSccSearch" />
+        <item index="4" class="java.lang.String" itemvalue="Python.RandomContraction" />
       </list>
     </recent_temporary>
   </component>
@@ -377,20 +410,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2060" height="1128" extended-state="1" />
-    <editor active="false" />
+    <frame x="-7" y="0" width="1932" height="1092" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50654584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.50609434" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27002054" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295688" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2496278" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32942432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24960254" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295688" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40862423" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40831557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -413,6 +446,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/DijkstraShortestPath.py</url>
+          <line>54</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/MedianMaintenance.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -423,40 +468,17 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="76" />
+      <option name="time" value="100" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="PythonConfigurationType">
-        <watch expression="set(adjacencyList.keys()) - set(excluded.keys())" language="Python" />
-        <watch expression="[1,2,2].remove(2)" language="Python" />
-        <watch expression="values[0]" language="Python" />
-        <watch expression="values[1:-1]" language="Python" />
-        <watch expression="values" language="Python" />
+        <watch expression="weights[(48, 86)]" language="Python" />
+        <watch expression="weights[(86, 48)]" language="Python" />
+        <watch expression="a[-1]" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/IntegerArraySubset.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuickSortSubset.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/QuickSort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MergeSort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -538,11 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4533" column="18" selection-start-line="4533" selection-start-column="18" selection-end-line="4533" selection-end-column="18" />
-          <folding>
-            <element signature="e#119689#119775#0" expanded="false" />
-            <element signature="e#151202#170433#0" expanded="false" />
-            <element signature="e#165120#165362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,11 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4533" column="18" selection-start-line="4533" selection-start-column="18" selection-end-line="4533" selection-end-column="18" />
-          <folding>
-            <element signature="e#119689#119775#0" expanded="false" />
-            <element signature="e#151202#170433#0" expanded="false" />
-            <element signature="e#165120#165362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -632,11 +644,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4533" column="18" selection-start-line="4533" selection-start-column="18" selection-end-line="4533" selection-end-column="18" />
-          <folding>
-            <element signature="e#119689#119775#0" expanded="false" />
-            <element signature="e#151202#170433#0" expanded="false" />
-            <element signature="e#165120#165362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,11 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4533" column="18" selection-start-line="4533" selection-start-column="18" selection-end-line="4533" selection-end-column="18" />
-          <folding>
-            <element signature="e#119689#119775#0" expanded="false" />
-            <element signature="e#151202#170433#0" expanded="false" />
-            <element signature="e#165120#165362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -698,11 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4533" column="18" selection-start-line="4533" selection-start-column="18" selection-end-line="4533" selection-end-column="18" />
-          <folding>
-            <element signature="e#119689#119775#0" expanded="false" />
-            <element signature="e#151202#170433#0" expanded="false" />
-            <element signature="e#165120#165362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -745,18 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1442825926/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3320965">
-          <caret line="3547" column="8" selection-start-line="3547" selection-start-column="8" selection-end-line="3547" selection-end-column="8" />
-          <folding>
-            <element signature="e#119689#119775#0" expanded="false" />
-            <element signature="e#151202#170433#0" expanded="false" />
-            <element signature="e#165120#165362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,18 +797,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+    <entry file="file://$PROJECT_DIR$/KosarajuSccSearch.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5361781">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KosarajuSccSearch.py">
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14285715">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="7" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.32818532">
+          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DijkstraShortestPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="55" selection-start-line="52" selection-start-column="55" selection-end-line="52" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm40/system/python_stubs/-1442825926/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33277026">
+          <caret line="3547" column="8" selection-start-line="3547" selection-start-column="8" selection-end-line="3547" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MedianMaintenance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22972973">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
           <folding />
         </state>
       </provider>
